@@ -1,14 +1,6 @@
-/* import Header from "../components/layouts/Header";
-import Footer from "../components/layouts/Footer"; */
-
 function Home(){
     return(
         <>
-            
-            {/* ***** Header Area Start ***** */}
-                {/* <Header /> */}
-            {/* ***** Header Area End ***** */}
-
 
             {/* ***** Welcome Area Start ***** */}
             <div className="welcome-area" id="welcome">

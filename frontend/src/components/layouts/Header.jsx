@@ -8,33 +8,33 @@ function Header(){
                             <nav className="main-nav">
                                 {/* ***** Logo Start ***** */}
                                 <a href="/" className="logo">
-                                    <img src="src/assets/images/logo-green.png" alt="Alya"/>
+                                    <img src="src/assets/images/logo.png" width={80} height={80} alt="Alya"/>
                                 </a>
                                 {/* ***** Logo End ***** */}
 
 
                                 {/* ***** Menu Start ***** */}
                                 <ul className="nav">
-                                    <li><a href="/#welcome">Home</a></li>
+                                    <li><a href="/#welcome">Inicio</a></li>
                                     <li className="submenu">
-                                        <a href="javascript:;">Discover</a>
+                                        <a href="javascript:;">Informações</a>
                                         <ul>
-                                            <li><a href="green-index.html#features">Features</a></li>
-                                            <li><a href="green-index.html#our-team">Our Team</a></li>
-                                            <li><a href="green-index.html#pricing-plans">Pricing Plans</a></li>
-                                            <li><a href="green-index.html#blog">Latests Blogs</a></li>
+                                            {/* <li><a href="green-index.html#features">Features</a></li> */}
+                                            <li><a href="/#our-team">Nossa Equipe</a></li>
+                                            <li><a href="/#pricing-plans">Planos</a></li>
+                                            <li><a href="/#blog">Latests Blogs</a></li>
                                         </ul>
                                     </li>
                                     <li className="submenu">
-                                        <a href="javascript:;">Pages</a>
+                                        <a href="javascript:;">Outros</a>
                                         <ul>
-                                            <li><a href="/about">About Us</a></li>
+                                            <li><a href="/about">Sobre-Nós</a></li>
                                             <li><a href="green-features.html">Features</a></li>
                                             <li><a href="green-faq.html">FAQ's</a></li>
                                             <li><a href="green-blog.html">Blog</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="/contact">Contact</a></li>
+                                    <li><a href="/contact">Contactos</a></li>
                                 </ul>
                                 <a className="menu-trigger">
                                     <span>Menu</span>
