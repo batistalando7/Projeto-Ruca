@@ -97,16 +97,16 @@ function Contact(){
 									<div className="contact-form">
 										<div className="row">
 											<div className="col-lg-6 col-md-12 col-sm-12">
-												<input type="text" placeholder="Name, surname"/>
+												<input type="text" placeholder="Nome"/>
 											</div>
 											<div className="col-lg-6 col-md-12 col-sm-12">
 												<input type="text" placeholder="E-Mail"/>
 											</div>
 											<div className="col-lg-12">
-												<textarea placeholder="Your message"></textarea>
+												<textarea placeholder="Escrever a mensagem..."></textarea>
 											</div>
 											<div className="col-lg-12">
-												<button className="btn-primary-line pull-right">SEND</button>
+												<button className="btn-primary-line pull-right">Enviar</button>
 											</div>
 										</div>
 									</div>

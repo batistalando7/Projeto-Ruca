@@ -2053,6 +2053,7 @@ footer {
   border-top: 1px solid #EEEEEE;
 }
 footer img.logo {
+  object-fit: cover;
   margin-bottom: 30px;
 }
 footer .text {
