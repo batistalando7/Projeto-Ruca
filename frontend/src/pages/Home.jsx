@@ -19,9 +19,9 @@ function Home(){
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-5 col-md-12 col-sm-12">
-                                <h1>Industry Leading Managed Services and Staffing <span>Solutions</span></h1>
-                                <p>Proven methods to capture business priorities and goals as well as current pain points that enables measurable business outcomes.</p>
-                                <a href="#" className="btn-primary-line">LEARN MORE</a>
+                                <h1>Simplifique os seus gastos com combustível e <span>poupe!</span></h1>
+                                <p>Cadastre-se agora e descubra uma nova forma de pagar, com descontos exclusivos e promoções imperdíveis. Monitore seu consumo de forma intuitiva e tenha controle total dos seus custos. </p>
+                                <a href="#" className="btn-primary-line">Saiba Mais</a>
                             </div>
                         </div>
                     </div>
@@ -51,8 +51,8 @@ function Home(){
                                         <div className="icon">
                                             <i className="fa fa-cloud"></i>
                                         </div>
-                                        <h5 className="features-title">Cloud Solutions</h5>
-                                        <p>Morbilling pharetra sapiening ut mattis viverra. Curabi tur magna.</p>
+                                        <h5 className="features-title">Pagamentos</h5>
+                                        <p>Pagamentos personalizados na compra de combustível.</p>
                                         <div className="next">
                                             <i className="fa fa-angle-right"></i>
                                         </div>
@@ -66,8 +66,8 @@ function Home(){
                                         <div className="icon">
                                             <i className="fa fa-laptop"></i>
                                         </div>
-                                        <h5 className="features-title">Network Services</h5>
-                                        <p>Donec pellentesque turpis utium lorem imperdiet semper viverra.</p>
+                                        <h5 className="features-title">Serviços</h5>
+                                        <p>Recargas móveis, televisão e demais serviços.</p>
                                         <div className="next">
                                             <i className="fa fa-angle-right"></i>
                                         </div>
@@ -81,8 +81,8 @@ function Home(){
                                         <div className="icon">
                                             <i className="fa fa-video-camera"></i>
                                         </div>
-                                        <h5 className="features-title">Webcast Services</h5>
-                                        <p>Facilisis arcu ligula, malesuada id tincidunt laoreet, facilisis at justo.</p>
+                                        <h5 className="features-title">Seguros Fidelidade</h5>
+                                        <p>Adquira e gerencie seu seguro pelo aplicativo.</p>
                                         <div className="next">
                                             <i className="fa fa-angle-right"></i>
                                         </div>
@@ -96,8 +96,8 @@ function Home(){
                                         <div className="icon">
                                             <i className="fa fa-server"></i>
                                         </div>
-                                        <h5 className="features-title">Disaster Recovery</h5>
-                                        <p>Proin arcu ligula, malesuada id tincidunt laoreet, facilisis at justo.</p>
+                                        <h5 className="features-title">Acistência na Estrada</h5>
+                                        <p>Serviços de emergência como reboque e mecânica.</p>
                                         <div className="next">
                                             <i className="fa fa-angle-right"></i>
                                         </div>
@@ -300,7 +300,7 @@ function Home(){
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="center-heading">
-                                <h2 className="section-title">Our Team</h2>
+                                <h2 className="section-title">Nossa Equipe</h2>
                             </div>
                         </div>
                         <div className="offset-lg-3 col-lg-6">
@@ -324,11 +324,11 @@ function Home(){
                                         <li><a href="#"><i className="fa fa-github"></i></a></li>
                                     </ul>
                                     <div className="user-image">
-                                        <img src="src/assets/images/photos/team/1.jpg" alt=""/>
+                                        <img src="src/assets/images/photos/team/img_anselmo.jpg" width={50} height={50} alt=""/>
                                     </div>
                                     <div className="team-info">
-                                        <h3 className="user-name">Fletch Skinner</h3>
-                                        <span>Product Strategist</span>
+                                        <h3 className="user-name">Anselmo Albino</h3>
+                                        <span>CEO</span>
                                     </div>
                                 </div>
                             </div>
@@ -350,8 +350,8 @@ function Home(){
                                         <img src="src/assets/images/photos/team/2.jpg" alt=""/>
                                     </div>
                                     <div className="team-info">
-                                        <h3 className="user-name">Lancer Bogroli</h3>
-                                        <span>Visual Designer</span>
+                                        <h3 className="user-name">Sofia</h3>
+                                        <span>Financeira</span>
                                     </div>
                                 </div>
                             </div>
@@ -373,8 +373,8 @@ function Home(){
                                         <img src="src/assets/images/photos/team/3.jpg" alt=""/>
                                     </div>
                                     <div className="team-info">
-                                        <h3 className="user-name">Valentine Morose</h3>
-                                        <span>Mobile Developer</span>
+                                        <h3 className="user-name">Ruffino Pedro</h3>
+                                        <span>Desiner Gráfico</span>
                                     </div>
                                 </div>
                             </div>
@@ -393,11 +393,11 @@ function Home(){
                                         <li><a href="#"><i className="fa fa-github"></i></a></li>
                                     </ul>
                                     <div className="user-image">
-                                        <img src="src/assets/images/photos/team/4.jpg" alt=""/>
+                                        <img src="src/assets/images/photos/team/blm.png" alt=""/>
                                     </div>
                                     <div className="team-info">
-                                        <h3 className="user-name">Gilese Posture</h3>
-                                        <span>iOS Developer</span>
+                                        <h3 className="user-name">Baptista Miguel</h3>
+                                        <span>Desenvolvedor Fullstack</span>
                                     </div>
                                 </div>
                             </div>
@@ -416,7 +416,7 @@ function Home(){
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="center-heading">
-                                <h2 className="section-title">Pricing Plans</h2>
+                                <h2 className="section-title">Planos</h2>
                             </div>
                         </div>
                         <div className="offset-lg-3 col-lg-6">

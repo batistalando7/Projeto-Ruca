@@ -4,7 +4,7 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-lg-5 col-md-12 col-sm-12">
-            <img src="src/assets/images/logo-green.png" className="logo" alt="" />
+            <img src="src/assets/images/logo.png" height={100} className="logo" alt="" />
             <div className="text">
               Morbi convallis bibendum urna ut viverra. Maecenas quis consequat
               libero, a feugiat eros. Nunc ut lacinia tortor morbi ultricies
@@ -12,12 +12,12 @@ function Footer() {
             </div>
           </div>
           <div className="col-lg-2 col-md-4 col-sm-6 col-6">
-            <h5>Helpful Links</h5>
+            <h5>Links Úteis</h5>
             <ul className="footer-nav">
               <li>
                 <a href="#">
                   <i className="fa fa-angle-right"></i>
-                  <span>About Us</span>
+                  <span>Sobre-Nós</span>
                 </a>
               </li>
               <li>
@@ -41,36 +41,36 @@ function Footer() {
             </ul>
           </div>
           <div className="col-lg-2 col-md-4 col-sm-6 col-6">
-            <h5>Support</h5>
+            <h5>Suporte</h5>
             <ul className="footer-nav">
               <li>
                 <a href="#">
                   <i className="fa fa-angle-right"></i>
-                  <span>Privacy Policy</span>
+                  <span>Política de Privacidade</span>
                 </a>
               </li>
               <li>
                 <a href="#">
                   <i className="fa fa-angle-right"></i>
-                  <span>Terms of Use</span>
+                  <span>Termos de Uso</span>
                 </a>
               </li>
               <li>
                 <a href="#">
                   <i className="fa fa-angle-right"></i>
-                  <span>Support Center</span>
+                  <span>Central de Apoio</span>
                 </a>
               </li>
               <li>
                 <a href="#">
                   <i className="fa fa-angle-right"></i>
-                  <span>Contact</span>
+                  <span>Contacos</span>
                 </a>
               </li>
             </ul>
           </div>
           <div className="col-lg-3 col-md-4 col-sm-12">
-            <h5>Contact Us</h5>
+            <h5>Nossos Contactos</h5>
             <div className="address">
               <p>
                 455 West Orchard Street
@@ -80,7 +80,7 @@ function Footer() {
               <p>Phone: (272) 211-7370</p>
               <p>
                 <span>E-Mail:</span>
-                <a href="#">support@yourbrand.com</a>
+                <a href="#">atentimento@lamtec.com</a>
               </p>
               <ul className="social">
                 <li>
@@ -114,7 +114,7 @@ function Footer() {
         </div>
         <div className="row">
           <div className="col-lg-12">
-            <p className="copyright">© 2021 Alya. All Rights Reserved.</p>
+            <p className="copyright">© 2025 LAMTEC. Todos os direitos reservados.</p>
           </div>
         </div>
       </div>
