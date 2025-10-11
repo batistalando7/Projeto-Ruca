@@ -43,8 +43,8 @@ function Header(){
 
                                 {/* ***** Header Buttons Start ***** */}
                                 <ul className="header-buttons">
-                                    <li><a className="btn-nav-line" href="green-features.html">Apps</a></li>
-                                    <li><a className="btn-nav-primary" href="green-contact.html">Support</a></li>
+                                    <li><a className="btn-nav-line" href="green-features.html">Entrar</a></li>
+                                    <li><a className="btn-nav-primary" href="green-contact.html">Criar Conta</a></li>
                                 </ul>
                                 {/* ***** Header Buttons End ***** */}
                             </nav>
