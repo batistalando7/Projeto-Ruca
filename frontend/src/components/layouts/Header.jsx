@@ -29,7 +29,7 @@ function Header(){
                                         <a href="javascript:;">Outros</a>
                                         <ul>
                                             <li><a href="/about">Sobre-Nós</a></li>
-                                            <li><a href="green-features.html">Features</a></li>
+                                            <li><a href="green-features.html">Serviços</a></li>
                                             <li><a href="green-faq.html">FAQ's</a></li>
                                             <li><a href="green-blog.html">Blog</a></li>
                                         </ul>
@@ -43,8 +43,8 @@ function Header(){
 
                                 {/* ***** Header Buttons Start ***** */}
                                 <ul className="header-buttons">
-                                    <li><a className="btn-nav-line" href="green-features.html">Apps</a></li>
-                                    <li><a className="btn-nav-primary" href="green-contact.html">Support</a></li>
+                                    <li><a className="btn-nav-line" href="#login">Entar</a></li>
+                                    <li><a className="btn-nav-primary" href="#register">Criar Conta</a></li>
                                 </ul>
                                 {/* ***** Header Buttons End ***** */}
                             </nav>

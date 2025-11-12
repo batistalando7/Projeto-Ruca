@@ -30,7 +30,7 @@ function Home(){
 
                 {/* ***** Play Button Start ***** */}
                 <div className="play-button-wrapper">
-                    <a href="../../www.youtube.com/watchb50d.html?v=dPZTh2NKTm4" className="btn-play">
+                    <a href="javacsript:void(0);" className="btn-play">
                         <i className="fa fa-play"></i>
                     </a>
                 </div>
@@ -51,8 +51,8 @@ function Home(){
                                         <div className="icon">
                                             <i className="fa fa-cloud"></i>
                                         </div>
-                                        <h5 className="features-title">Cloud Solutions</h5>
-                                        <p>Morbilling pharetra sapiening ut mattis viverra. Curabi tur magna.</p>
+                                        <h5 className="features-title">Pagamentos</h5>
+                                        <p>Compre combustível, com descontos. Recargas móveis.</p>
                                         <div className="next">
                                             <i className="fa fa-angle-right"></i>
                                         </div>
@@ -66,8 +66,8 @@ function Home(){
                                         <div className="icon">
                                             <i className="fa fa-laptop"></i>
                                         </div>
-                                        <h5 className="features-title">Network Services</h5>
-                                        <p>Donec pellentesque turpis utium lorem imperdiet semper viverra.</p>
+                                        <h5 className="features-title">Serviços</h5>
+                                        <p>Descontos com restaurantes, hotéis e lojas parceiras.</p>
                                         <div className="next">
                                             <i className="fa fa-angle-right"></i>
                                         </div>
@@ -81,8 +81,8 @@ function Home(){
                                         <div className="icon">
                                             <i className="fa fa-video-camera"></i>
                                         </div>
-                                        <h5 className="features-title">Webcast Services</h5>
-                                        <p>Facilisis arcu ligula, malesuada id tincidunt laoreet, facilisis at justo.</p>
+                                        <h5 className="features-title">Assistência na Estrada</h5>
+                                        <p>Serviços de emergência como reboque e mecânica (Seguro integrado).</p>
                                         <div className="next">
                                             <i className="fa fa-angle-right"></i>
                                         </div>
@@ -96,8 +96,8 @@ function Home(){
                                         <div className="icon">
                                             <i className="fa fa-server"></i>
                                         </div>
-                                        <h5 className="features-title">Disaster Recovery</h5>
-                                        <p>Proin arcu ligula, malesuada id tincidunt laoreet, facilisis at justo.</p>
+                                        <h5 className="features-title">Gestão de Combustível</h5>
+                                        <p>O usuário monitora o consumo de combustível do veículo.</p>
                                         <div className="next">
                                             <i className="fa fa-angle-right"></i>
                                         </div>
@@ -530,8 +530,8 @@ function Home(){
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="info">
-                                    <p>We design and develop <span>web apps</span> that delight your users and grow your business.</p>
-                                    <a className="btn-white-line" href="#">Contact Us</a>
+                                    <p>Nosso serviços integrados e <span>parceirias</span> para expandir o seu negócio.</p>
+                                    <a className="btn-white-line" href="#">Contacte-Nos</a>
                                 </div>
                             </div>
                         </div>
