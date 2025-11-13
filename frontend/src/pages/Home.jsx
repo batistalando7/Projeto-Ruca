@@ -49,7 +49,7 @@ function Home(){
                                 <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                                     <a href="javascript:void(0);" className="features-small-item">
                                         <div className="icon">
-                                            <i className="fa fa-cloud"></i>
+                                            <i className="fa fa-dollar"></i>
                                         </div>
                                         <h5 className="features-title">Pagamentos</h5>
                                         <p>Compre combustível, com descontos. Recargas móveis.</p>
@@ -64,7 +64,7 @@ function Home(){
                                 <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                                     <a href="javascript:void(0);" className="features-small-item">
                                         <div className="icon">
-                                            <i className="fa fa-laptop"></i>
+                                            <i className="fa fa-credit-card"></i>
                                         </div>
                                         <h5 className="features-title">Serviços</h5>
                                         <p>Descontos com restaurantes, hotéis e lojas parceiras.</p>
@@ -79,7 +79,7 @@ function Home(){
                                 <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                                     <a href="javascript:void(0);" className="features-small-item">
                                         <div className="icon">
-                                            <i className="fa fa-video-camera"></i>
+                                            <i className="fa fa-truck"></i>
                                         </div>
                                         <h5 className="features-title">Assistência na Estrada</h5>
                                         <p>Serviços de emergência como reboque e mecânica (Seguro integrado).</p>

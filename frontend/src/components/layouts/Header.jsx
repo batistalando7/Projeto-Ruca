@@ -68,11 +68,11 @@ function Header() {
                   <a href="/contact">Contactos</a>
                 </li>
               </ul>
-              {user ? (
+              {/* {user ? (
                 <span>Bem-vindo, {user.name}</span>
               ) : (
                 <span>Carregando...</span>
-              )}
+              )} */}
               <a className="menu-trigger">
                 <span>Menu</span>
               </a>
