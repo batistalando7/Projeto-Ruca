@@ -1,10 +1,11 @@
+import logo from '../../assets/images/logo.png';
 function Footer() {
   return (
     <footer>
       <div className="container">
         <div className="row">
           <div className="col-lg-5 col-md-12 col-sm-12">
-            <img src="src/assets/images/logo.png" width={80} height={80} alt="Alya"/>
+            <img src={logo} width={80} height={80} alt="Alya"/>
             <div className="text">
               Morbi convallis bibendum urna ut viverra. Maecenas quis consequat
               libero, a feugiat eros. Nunc ut lacinia tortor morbi ultricies

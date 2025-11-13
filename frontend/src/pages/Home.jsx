@@ -19,9 +19,9 @@ function Home(){
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-5 col-md-12 col-sm-12">
-                                <h1>Industry Leading Managed Services and Staffing <span>Solutions</span></h1>
-                                <p>Proven methods to capture business priorities and goals as well as current pain points that enables measurable business outcomes.</p>
-                                <a href="#" className="btn-primary-line">LEARN MORE</a>
+                                <h1>Simplifique os seus gastos com combustível e poupe! {/* <span>Solutions</span> */}</h1>
+                                <p>Cadastre-se agora e descubra uma nova forma de pagar, com descontos exclusivos e promoções imperdíveis. Monitore seu consumo de forma intuitiva e tenha controle total dos seus custos.</p>
+                                <a href="#" className="btn-primary-line">SAIBA MAIS</a>
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ function Home(){
                             <div className="row">
                                 {/* ***** Features Small Item Start ***** */}
                                 <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-                                    <a href="green-features-single.html" className="features-small-item">
+                                    <a href="javascript:void(0);" className="features-small-item">
                                         <div className="icon">
                                             <i className="fa fa-cloud"></i>
                                         </div>
@@ -62,7 +62,7 @@ function Home(){
 
                                 {/* ***** Features Small Item Start ***** */}
                                 <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-                                    <a href="green-features-single.html" className="features-small-item">
+                                    <a href="javascript:void(0);" className="features-small-item">
                                         <div className="icon">
                                             <i className="fa fa-laptop"></i>
                                         </div>
@@ -77,7 +77,7 @@ function Home(){
 
                                 {/* ***** Features Small Item Start ***** */}
                                 <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-                                    <a href="green-features-single.html" className="features-small-item">
+                                    <a href="javascript:void(0);" className="features-small-item">
                                         <div className="icon">
                                             <i className="fa fa-video-camera"></i>
                                         </div>
@@ -92,7 +92,7 @@ function Home(){
 
                                 {/* ***** Features Small Item Start ***** */}
                                 <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-                                    <a href="green-features-single.html" className="features-small-item">
+                                    <a href="javascript:void(0);" className="features-small-item">
                                         <div className="icon">
                                             <i className="fa fa-server"></i>
                                         </div>
@@ -118,57 +118,57 @@ function Home(){
                     <div className="row">
                         <div className="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-bottom-fix">
                             <div className="left-heading">
-                                <h2 className="section-title">Cloud Services</h2>
+                                <h2 className="section-title">Nossos Serviços</h2>
                             </div>
                             <div className="left-text">
                                 <p>Phasellus vitae velit sit amet diam semper commodo quis quis libero. Morbi consequat arcu augue, molestie faucibus metus ullamcorper vel.</p>
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6 col-sm-12">
-                                        <a className="btn-home active" href="green-features-single.html">
+                                        <a className="btn-home active" href="javascript:void(0);">
                                             <i className="fa fa-angle-right"></i>
-                                            <span>NearCloud</span>
+                                            <span>Gestão de Combustível</span>
                                         </a>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12">
-                                        <a className="btn-home" href="green-features-single.html">
+                                        <a className="btn-home" href="javascript:void(0);">
                                             <i className="fa fa-angle-right"></i>
-                                            <span>Office Cloud</span>
+                                            <span>Fidelidade</span>
                                         </a>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12">
-                                        <a className="btn-home" href="green-features-single.html">
+                                        <a className="btn-home" href="javascript:void(0);">
                                             <i className="fa fa-angle-right"></i>
-                                            <span>Backup Systems</span>
+                                            <span>Pagamentos Automáticos</span>
                                         </a>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12">
-                                        <a className="btn-home" href="green-features-single.html">
+                                        <a className="btn-home" href="javascript:void(0);">
                                             <i className="fa fa-angle-right"></i>
-                                            <span>Hybrid Cloud</span>
+                                            <span>Assistência na Estrada</span>
                                         </a>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12">
-                                        <a className="btn-home" href="green-features-single.html">
+                                        <a className="btn-home" href="javascript:void(0);">
                                             <i className="fa fa-angle-right"></i>
-                                            <span>API Cloud</span>
+                                            <span>Seguro Integrado</span>
                                         </a>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12">
-                                        <a className="btn-home" href="green-features-single.html">
+                                        <a className="btn-home" href="javascript:void(0);">
                                             <i className="fa fa-angle-right"></i>
-                                            <span>SDK Cloud</span>
+                                            <span>Parcerias Comerciais</span>
                                         </a>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12">
-                                        <a className="btn-home" href="green-features-single.html">
+                                        <a className="btn-home" href="javascript:void(0);">
                                             <i className="fa fa-angle-right"></i>
-                                            <span>Web Services</span>
+                                            <span>Recargas Móveis</span>
                                         </a>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12">
-                                        <a className="btn-home" href="green-features-single.html">
+                                        <a className="btn-home" href="javascript:void(0);">
                                             <i className="fa fa-angle-right"></i>
-                                            <span>Cloud Hosting</span>
+                                            <span>Pagamentos Internacionais</span>
                                         </a>
                                     </div>
                                 </div>
@@ -200,49 +200,49 @@ function Home(){
                                 <p>Phasellus vitae velit sit amet diam semper commodo quis quis libero. Morbi consequat arcu augue, molestie faucibus metus ullamcorper vel.</p>
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6 col-sm-12">
-                                        <a className="btn-home active" href="green-features-single.html">
+                                        <a className="btn-home active" href="javascript:void(0);">
                                             <i className="fa fa-angle-right"></i>
                                             <span>Web Design</span>
                                         </a>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12">
-                                        <a className="btn-home" href="green-features-single.html">
+                                        <a className="btn-home" href="javascript:void(0);">
                                             <i className="fa fa-angle-right"></i>
                                             <span>Mobile App Design</span>
                                         </a>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12">
-                                        <a className="btn-home" href="green-features-single.html">
+                                        <a className="btn-home" href="javascript:void(0);">
                                             <i className="fa fa-angle-right"></i>
                                             <span>Android Development</span>
                                         </a>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12">
-                                        <a className="btn-home" href="green-features-single.html">
+                                        <a className="btn-home" href="javascript:void(0);">
                                             <i className="fa fa-angle-right"></i>
                                             <span>iOS Development</span>
                                         </a>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12">
-                                        <a className="btn-home" href="green-features-single.html">
+                                        <a className="btn-home" href="javascript:void(0);">
                                             <i className="fa fa-angle-right"></i>
                                             <span>Back-End</span>
                                         </a>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12">
-                                        <a className="btn-home" href="green-features-single.html">
+                                        <a className="btn-home" href="javascript:void(0);">
                                             <i className="fa fa-angle-right"></i>
                                             <span>Front-End</span>
                                         </a>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12">
-                                        <a className="btn-home" href="green-features-single.html">
+                                        <a className="btn-home" href="javascript:void(0);">
                                             <i className="fa fa-angle-right"></i>
                                             <span>e-Commerce</span>
                                         </a>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12">
-                                        <a className="btn-home" href="green-features-single.html">
+                                        <a className="btn-home" href="javascript:void(0);">
                                             <i className="fa fa-angle-right"></i>
                                             <span>Print Design</span>
                                         </a>
@@ -300,7 +300,7 @@ function Home(){
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="center-heading">
-                                <h2 className="section-title">Our Team</h2>
+                                <h2 className="section-title">Nossa Equipe</h2>
                             </div>
                         </div>
                         <div className="offset-lg-3 col-lg-6">
@@ -327,8 +327,8 @@ function Home(){
                                         <img src="src/assets/images/photos/team/1.jpg" alt=""/>
                                     </div>
                                     <div className="team-info">
-                                        <h3 className="user-name">Fletch Skinner</h3>
-                                        <span>Product Strategist</span>
+                                        <h3 className="user-name">Ancelmo Gomes</h3>
+                                        <span>CEO</span>
                                     </div>
                                 </div>
                             </div>
@@ -350,8 +350,8 @@ function Home(){
                                         <img src="src/assets/images/photos/team/2.jpg" alt=""/>
                                     </div>
                                     <div className="team-info">
-                                        <h3 className="user-name">Lancer Bogroli</h3>
-                                        <span>Visual Designer</span>
+                                        <h3 className="user-name">Sofia</h3>
+                                        <span>Gestão e Finaças</span>
                                     </div>
                                 </div>
                             </div>
@@ -373,8 +373,8 @@ function Home(){
                                         <img src="src/assets/images/photos/team/3.jpg" alt=""/>
                                     </div>
                                     <div className="team-info">
-                                        <h3 className="user-name">Valentine Morose</h3>
-                                        <span>Mobile Developer</span>
+                                        <h3 className="user-name">Baptista Miguel</h3>
+                                        <span>Desenvolvedor Fullstack</span>
                                     </div>
                                 </div>
                             </div>
@@ -396,8 +396,8 @@ function Home(){
                                         <img src="src/assets/images/photos/team/4.jpg" alt=""/>
                                     </div>
                                     <div className="team-info">
-                                        <h3 className="user-name">Gilese Posture</h3>
-                                        <span>iOS Developer</span>
+                                        <h3 className="user-name">Ruffino</h3>
+                                        <span>Designer Gráfico</span>
                                     </div>
                                 </div>
                             </div>
@@ -416,7 +416,7 @@ function Home(){
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="center-heading">
-                                <h2 className="section-title">Pricing Plans</h2>
+                                <h2 className="section-title">Nossos Planos</h2>
                             </div>
                         </div>
                         <div className="offset-lg-3 col-lg-6">
@@ -548,7 +548,7 @@ function Home(){
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="center-heading">
-                                <h2 className="section-title">Latest Blog Posts</h2>
+                                <h2 className="section-title">Novidades do nosso blog</h2>
                             </div>
                         </div>
                         <div className="offset-lg-3 col-lg-6">
@@ -572,7 +572,7 @@ function Home(){
                                     <div className="text">
                                         Mauris tellus sem, ultrices varius nisl at, convallis iaculis mauris. Sed eget sem vitae purus tempus dignissim.
                                     </div>
-                                    <a href="green-blog-single.html" className="btn-primary-line">Read More</a>
+                                    <a href="green-blog-single.html" className="btn-primary-line">Ver Mais</a>
                                 </div>
                             </div>
                         </div>
@@ -588,7 +588,7 @@ function Home(){
                                     <div className="text">
                                         Cras imperdiet faucibus sem, a dignissim urna feugiat sed. Interdum et malesuada fames ac ante ipsum.
                                     </div>
-                                    <a href="green-blog-single.html" className="btn-primary-line">Read More</a>
+                                    <a href="green-blog-single.html" className="btn-primary-line">Ver Mais</a>
                                 </div>
                             </div>
                         </div>
@@ -604,7 +604,7 @@ function Home(){
                                     <div className="text">
                                         Quisque euismod nec lacus sit amet maximus. Ut convallis sagittis lorem auctor malesuada. Morbi auctor tortor eu.
                                     </div>
-                                    <a href="green-blog-single.html" className="btn-primary-line">Read More</a>
+                                    <a href="green-blog-single.html" className="btn-primary-line">Ver Mais</a>
                                 </div>
                             </div>
                         </div>
