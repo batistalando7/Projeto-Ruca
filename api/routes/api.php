@@ -19,3 +19,6 @@ Route::apiResource('/V1/services', 'Api\V1\ServiceController');
 /* Invoice route */
 Route::apiResource('/V1/invoices', 'Api\V1\InvoiceController');
 
+/* contact route */
+Route::apiResource('/V1/contacts', 'Api\V1\ContactController');
+

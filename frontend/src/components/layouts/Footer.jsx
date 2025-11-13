@@ -1,10 +1,11 @@
+import logo from '../../assets/images/logo.png';
 function Footer() {
   return (
     <footer>
       <div className="container">
         <div className="row">
           <div className="col-lg-5 col-md-12 col-sm-12">
-            <img src="src/assets/images/logo.png" height={100} className="logo" alt="" />
+            <img src={logo} width={80} height={80} alt="Alya"/>
             <div className="text">
               Morbi convallis bibendum urna ut viverra. Maecenas quis consequat
               libero, a feugiat eros. Nunc ut lacinia tortor morbi ultricies
@@ -12,7 +13,7 @@ function Footer() {
             </div>
           </div>
           <div className="col-lg-2 col-md-4 col-sm-6 col-6">
-            <h5>Links Úteis</h5>
+            <h5>Links Faceis</h5>
             <ul className="footer-nav">
               <li>
                 <a href="#">
@@ -23,7 +24,7 @@ function Footer() {
               <li>
                 <a href="#">
                   <i className="fa fa-angle-right"></i>
-                  <span>Features</span>
+                  <span>Serviços</span>
                 </a>
               </li>
               <li>
@@ -58,13 +59,13 @@ function Footer() {
               <li>
                 <a href="#">
                   <i className="fa fa-angle-right"></i>
-                  <span>Central de Apoio</span>
+                  <span>Centro de Suporte</span>
                 </a>
               </li>
               <li>
                 <a href="#">
                   <i className="fa fa-angle-right"></i>
-                  <span>Contacos</span>
+                  <span>Contactos</span>
                 </a>
               </li>
             </ul>
@@ -80,7 +81,7 @@ function Footer() {
               <p>Phone: (272) 211-7370</p>
               <p>
                 <span>E-Mail:</span>
-                <a href="#">atentimento@lamtec.com</a>
+                <a href="#">support@yourbrand.com</a>
               </p>
               <ul className="social">
                 <li>
@@ -114,7 +115,7 @@ function Footer() {
         </div>
         <div className="row">
           <div className="col-lg-12">
-            <p className="copyright">© 2025 LAMTEC. Todos os direitos reservados.</p>
+            <p className="copyright">© 2025 Ruca. Todos os direitos reservados.</p>
           </div>
         </div>
       </div>
