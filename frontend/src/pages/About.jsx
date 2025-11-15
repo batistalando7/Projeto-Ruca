@@ -9,12 +9,12 @@ function About(){
 				<div className="container">
 					<div className="row">
 						<div className="col-lg-12">
-							<h1>About Us</h1>
+							<h1>Sobre-Nós</h1>
 						</div>
 						<div className="col-lg-12">
 							<ol className="breadcrumb">
 								<li><a href="green-index.html">Home</a></li>
-								<li className="active">About Us</li>
+								<li className="active">Sobre-Nós</li>
 							</ol>
 						</div>
 					</div>
@@ -32,8 +32,8 @@ function About(){
 						<div className="about">
 							<div className="row">
 								<div className="offset-lg-2 col-lg-8">
-									<h2>We're makers and creative</h2>
-									<p>Phasellus vitae velit sit amet diam semper commodo quis quis libero. Morbi consequat arcu augue, molestie faucibus metus ullamcorper vel. Quisque lacinia fringilla fermentum. Suspendisse faucibus lectus convallis, elementum nisl sed,</p>
+									<h2>Ruca, projeto do grupo LAMTEC</h2>
+									<p>LAMTEC é uma empresa que atua no mercado angolano desde 2024, trazendo soluções tecnologicas a problemas concretos da sociedade Angolana.</p>
 								</div>
 								<div className="col-lg-10 offset-lg-1 position-relative">
 									<div className="about-image">
@@ -78,12 +78,12 @@ function About(){
 				<div className="row">
 					<div className="col-lg-12">
 						<div className="center-heading">
-							<h2 className="section-title">Our Team</h2>
+							<h2 className="section-title">Nossa Equipe</h2>
 						</div>
 					</div>
 					<div className="offset-lg-3 col-lg-6">
 						<div className="center-text">
-							<p>Donec vulputate urna sed rutrum venenatis. Cras consequat magna quis arcu elementum, quis congue risus volutpat.</p>
+							<p>Profissionais comprometidos e apaixonados com as tecnologias de informação e comunicação, </p>
 						</div>
 					</div>
 				</div>
@@ -105,7 +105,7 @@ function About(){
 									<img src="src/assets/images/photos/team/1.jpg" alt=""/>
 								</div>
 								<div className="team-info">
-									<h3 className="user-name">Fletch Skinner</h3>
+									<h3 className="user-name">Anselmo Gomes</h3>
 									<span>Product Strategist</span>
 								</div>
 							</div>
@@ -128,7 +128,7 @@ function About(){
 									<img src="src/assets/images/photos/team/2.jpg" alt=""/>
 								</div>
 								<div className="team-info">
-									<h3 className="user-name">Lancer Bogroli</h3>
+									<h3 className="user-name">Sofia</h3>
 									<span>Visual Designer</span>
 								</div>
 							</div>
@@ -151,7 +151,7 @@ function About(){
 									<img src="src/assets/images/photos/team/3.jpg" alt=""/>
 								</div>
 								<div className="team-info">
-									<h3 className="user-name">Valentine Morose</h3>
+									<h3 className="user-name">Baptista Miguel</h3>
 									<span>Mobile Developer</span>
 								</div>
 							</div>
@@ -174,7 +174,7 @@ function About(){
 									<img src="src/assets/images/photos/team/4.jpg" alt=""/>
 								</div>
 								<div className="team-info">
-									<h3 className="user-name">Gilese Posture</h3>
+									<h3 className="user-name">Ruffino</h3>
 									<span>iOS Developer</span>
 								</div>
 							</div>

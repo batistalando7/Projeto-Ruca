@@ -10,7 +10,7 @@ function Header() {
   useEffect(() => {
     //buscar dados do usuario
     api
-      .get("/users/2")
+      .get("/users/1")
       .then((response) => setUser(response.data))
       .catch((error) =>
         console.error("Erro ao buscar dados do usuário:", error)
