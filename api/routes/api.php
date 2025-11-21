@@ -8,7 +8,9 @@ use App\Http\Controllers\Api\V1\Auth\AuthController;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 }); */
+
 /* User ruote */
+
 Route::apiResource('/V1/users', 'Api\V1\UserController');
 
 /* Category route*/
@@ -24,5 +26,7 @@ Route::apiResource('/V1/invoices', 'Api\V1\InvoiceController');
 Route::apiResource('/V1/contacts', 'Api\V1\ContactController');
 
 /* auth routes */
-Route::post('/V1/login', 'Api\V1\Auth\AuthController@login');
+
 Route::post('/V1/logout', 'Api\V1\Auth\AuthController@logout');
+
+Route::post('/V1/login', 'Api\V1\Auth\AuthController@login');
