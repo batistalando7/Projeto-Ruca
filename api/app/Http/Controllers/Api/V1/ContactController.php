@@ -9,11 +9,6 @@ use App\Models\Contact;
 class ContactController extends Controller
 {
 
-    public function __construct()
-    {
-        $this->middleware('auth:sanctum')->except(['index', 'show']);
-    }
-
     public function index()
     {
         return Contact::all();

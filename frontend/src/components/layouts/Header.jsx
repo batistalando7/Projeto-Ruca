@@ -10,7 +10,7 @@ function Header() {
   useEffect(() => {
     //buscar dados do usuario
     api
-      .get("/users/2")
+      .get("/users/3")
       .then((response) => setUser(response.data))
       .catch((error) =>
         console.error("Erro ao buscar dados do usuário:", error)
@@ -83,12 +83,12 @@ function Header() {
               {/* ***** Header Buttons Start ***** */}
               <ul className="header-buttons">
                 <li>
-                  <a className="btn-nav-line" href="#login">
+                  <a className="btn-nav-line" href="/login">
                     Entar
                   </a>
                 </li>
                 <li>
-                  <a className="btn-nav-primary" href="#register">
+                  <a className="btn-nav-primary" href="/register">
                     Criar Conta
                   </a>
                 </li>
