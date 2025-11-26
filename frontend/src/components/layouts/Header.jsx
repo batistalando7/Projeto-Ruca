@@ -83,12 +83,12 @@ function Header() {
               {/* ***** Header Buttons Start ***** */}
               <ul className="header-buttons">
                 <li>
-                  <a className="btn-nav-line" href="#login">
+                  <a className="btn-nav-line" href="/login">
                     Entar
                   </a>
                 </li>
                 <li>
-                  <a className="btn-nav-primary" href="#register">
+                  <a className="btn-nav-primary" href="/register">
                     Criar Conta
                   </a>
                 </li>
