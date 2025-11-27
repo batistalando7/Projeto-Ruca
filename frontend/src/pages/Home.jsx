@@ -1,3 +1,5 @@
+import image from "../assets/images/photos/header.jpg";
+
 function Home() {
   return (
     <>
@@ -6,7 +8,7 @@ function Home() {
         {/* ***** Header Background Image Start ***** */}
         <div className="right-bg">
           <img
-            src="src/assets/images/photos/header.jpg"
+            src={image}
             className="img-fluid float-right"
             alt=""
           />
