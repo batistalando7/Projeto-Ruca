@@ -73,7 +73,7 @@ function Register() {
                 Entrar
               </button>
               <p>
-                <a href="/register">Criar Conta</a>
+                <a href="/login">Já possui uma conta? Faça login</a>
               </p>
               <p>
                 <a href="/">Voltar a Página Inicial</a>
