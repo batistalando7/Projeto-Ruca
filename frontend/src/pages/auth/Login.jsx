@@ -41,6 +41,7 @@ function Login() {
                     className="form-control"
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Seu email..."
+                    required
                   />
                 </div>
               </div>
@@ -52,6 +53,7 @@ function Login() {
                     className="form-control"
                     onChange={(e) => setPassword(e.target.value)}
                     placeholder="Sua senha..."
+                    required
                   />
                 </div>
               </div>

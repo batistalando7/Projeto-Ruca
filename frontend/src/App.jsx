@@ -6,6 +6,8 @@ import Main from "./components/layouts/Main";
 import Login from "./pages/auth/Login";
 import Logout from "./pages/auth/Logout";
 import Register from "./pages/auth/Register";
+import Service from "./pages/Service";
+import Payment from "./pages/payment";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="service" element={<Service />} />
+          <Route path="payment" element={<Payment />} />
         </Route>
         
         {/* Auth routes */}

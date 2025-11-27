@@ -65,7 +65,7 @@ function Home() {
               <div className="row">
                 {/* ***** Features Small Item Start ***** */}
                 <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-                  <a href="javascript:void(0);" className="features-small-item">
+                  <a href="/payment" className="features-small-item">
                     <div className="icon">
                       <i className="fa fa-dollar"></i>
                     </div>
@@ -80,7 +80,7 @@ function Home() {
 
                 {/* ***** Features Small Item Start ***** */}
                 <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-                  <a href="javascript:void(0);" className="features-small-item">
+                  <a href="/service" className="features-small-item">
                     <div className="icon">
                       <i className="fa fa-credit-card"></i>
                     </div>
@@ -95,7 +95,7 @@ function Home() {
 
                 {/* ***** Features Small Item Start ***** */}
                 <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-                  <a href="javascript:void(0);" className="features-small-item">
+                  <a href="/roadside-assistance" className="features-small-item">
                     <div className="icon">
                       <i className="fa fa-truck"></i>
                     </div>
@@ -113,7 +113,7 @@ function Home() {
 
                 {/* ***** Features Small Item Start ***** */}
                 <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-                  <a href="javascript:void(0);" className="features-small-item">
+                  <a href="/fuel-management" className="features-small-item">
                     <div className="icon">
                       <i className="fa fa-server"></i>
                     </div>
@@ -679,7 +679,7 @@ function Home() {
                     Nosso serviços integrados e <span>parceirias</span> para
                     expandir o seu negócio.
                   </p>
-                  <a className="btn-white-line" href="#">
+                  <a className="btn-white-line" href="/contact">
                     Contacte-Nos
                   </a>
                 </div>

@@ -64,7 +64,7 @@ function About(){
 							<div className="col-lg-12">
 								<div className="info">
 									<p>We design and develop <span>web apps</span> that delight your users and grow your business.</p>
-									<a className="btn-white-line" href="#">Contact Us</a>
+									<a className="btn-white-line" href="/contact">Contact Us</a>
 								</div>
 							</div>
 						</div>
