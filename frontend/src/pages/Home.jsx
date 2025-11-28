@@ -1,4 +1,7 @@
 import image from "../assets/images/photos/header.jpg";
+import OurService from "../components/OurService";
+import OurTeam from "../components/OurTeam";
+import PricingPlans from "../components/PricingPlans";
 
 function Home() {
   return (
@@ -7,11 +10,7 @@ function Home() {
       <div className="welcome-area" id="welcome">
         {/* ***** Header Background Image Start ***** */}
         <div className="right-bg">
-          <img
-            src={image}
-            className="img-fluid float-right"
-            alt=""
-          />
+          <img src={image} className="img-fluid float-right" alt="" />
         </div>
         {/* ***** Header Background Image End ***** */}
 
@@ -95,7 +94,10 @@ function Home() {
 
                 {/* ***** Features Small Item Start ***** */}
                 <div className="col-lg-3 col-md-6 col-sm-6 col-12">
-                  <a href="/roadside-assistance" className="features-small-item">
+                  <a
+                    href="/roadside-assistance"
+                    className="features-small-item"
+                  >
                     <div className="icon">
                       <i className="fa fa-truck"></i>
                     </div>
@@ -137,87 +139,13 @@ function Home() {
       {/* ***** Features Big Item Start ***** */}
       <section className="section padding-bottom-80 colored" id="features">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-bottom-fix">
-              <div className="left-heading">
-                <h2 className="section-title">Nossos Serviços</h2>
-              </div>
-              <div className="left-text">
-                <p>
-                  Phasellus vitae velit sit amet diam semper commodo quis quis
-                  libero. Morbi consequat arcu augue, molestie faucibus metus
-                  ullamcorper vel.
-                </p>
-                <div className="row">
-                  <div className="col-lg-6 col-md-6 col-sm-12">
-                    <a className="btn-home active" href="javascript:void(0);">
-                      <i className="fa fa-angle-right"></i>
-                      <span>Gestão de Combustível</span>
-                    </a>
-                  </div>
-                  <div className="col-lg-6 col-md-6 col-sm-12">
-                    <a className="btn-home" href="javascript:void(0);">
-                      <i className="fa fa-angle-right"></i>
-                      <span>Fidelidade</span>
-                    </a>
-                  </div>
-                  <div className="col-lg-6 col-md-6 col-sm-12">
-                    <a className="btn-home" href="javascript:void(0);">
-                      <i className="fa fa-angle-right"></i>
-                      <span>Pagamentos Automáticos</span>
-                    </a>
-                  </div>
-                  <div className="col-lg-6 col-md-6 col-sm-12">
-                    <a className="btn-home" href="javascript:void(0);">
-                      <i className="fa fa-angle-right"></i>
-                      <span>Assistência na Estrada</span>
-                    </a>
-                  </div>
-                  <div className="col-lg-6 col-md-6 col-sm-12">
-                    <a className="btn-home" href="javascript:void(0);">
-                      <i className="fa fa-angle-right"></i>
-                      <span>Seguro Integrado</span>
-                    </a>
-                  </div>
-                  <div className="col-lg-6 col-md-6 col-sm-12">
-                    <a className="btn-home" href="javascript:void(0);">
-                      <i className="fa fa-angle-right"></i>
-                      <span>Parcerias Comerciais</span>
-                    </a>
-                  </div>
-                  <div className="col-lg-6 col-md-6 col-sm-12">
-                    <a className="btn-home" href="javascript:void(0);">
-                      <i className="fa fa-angle-right"></i>
-                      <span>Recargas Móveis</span>
-                    </a>
-                  </div>
-                  <div className="col-lg-6 col-md-6 col-sm-12">
-                    <a className="btn-home" href="javascript:void(0);">
-                      <i className="fa fa-angle-right"></i>
-                      <span>Pagamentos Internacionais</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-1"></div>
-            <div
-              className="col-lg-5 col-md-12 col-sm-12 align-self-center mobile-bottom-fix"
-              data-scroll-reveal="enter left move 30px over 0.6s after 0.4s"
-            >
-              <img
-                src="src/assets/images/photos/features/green-1.png"
-                className="img-fluid d-block mx-auto"
-                alt="App"
-              />
-            </div>
-          </div>
+          <OurService />
         </div>
       </section>
       {/* ***** Features Big Item End ***** */}
 
       {/* ***** Features Big Item Start ***** */}
-      <section className="section padding-bottom-80">
+      {/* <section className="section padding-bottom-80">
         <div className="container">
           <div className="row">
             <div
@@ -295,7 +223,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* ***** Features Big Item End ***** */}
 
       {/* ***** Counter Parallax Start ***** */}
@@ -352,193 +280,7 @@ function Home() {
       {/* ***** Team Start ***** */}
       <section className="section padding-bottom-90" id="our-team">
         <div className="container">
-          {/* ***** Section Title Start ***** */}
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="center-heading">
-                <h2 className="section-title">Nossa Equipe</h2>
-              </div>
-            </div>
-            <div className="offset-lg-3 col-lg-6">
-              <div className="center-text">
-                <p>
-                  Donec vulputate urna sed rutrum venenatis. Cras consequat
-                  magna quis arcu elementum, quis congue risus volutpat.
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* ***** Section Title End ***** */}
-
-          <div className="row">
-            {/* ***** Team Item Start ***** */}
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div className="team-item">
-                <div className="team-content">
-                  <p>
-                    Proin arcu ligula, malesuada id tincidunt laoreet, facilisis
-                    at justo. Sed at lorem.
-                  </p>
-                  <ul className="social">
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-github"></i>
-                      </a>
-                    </li>
-                  </ul>
-                  <div className="user-image">
-                    <img src="src/assets/images/photos/team/1.jpg" alt="" />
-                  </div>
-                  <div className="team-info">
-                    <h3 className="user-name">Ancelmo Gomes</h3>
-                    <span>CEO</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* ***** Team Item End ***** */}
-
-            {/* ***** Team Item Start ***** */}
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div className="team-item">
-                <div className="team-content">
-                  <p>
-                    Aliquam eget convallis nunc, et porta libero. Etiam velit,
-                    lobortis ut tristique.
-                  </p>
-                  <ul className="social">
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-github"></i>
-                      </a>
-                    </li>
-                  </ul>
-                  <div className="user-image">
-                    <img src="src/assets/images/photos/team/2.jpg" alt="" />
-                  </div>
-                  <div className="team-info">
-                    <h3 className="user-name">Sofia</h3>
-                    <span>Gestão e Finaças</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* ***** Team Item End ***** */}
-
-            {/* ***** Team Item Start ***** */}
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div className="team-item">
-                <div className="team-content">
-                  <p>
-                    Curabitur tristique nec orci quis porta. Aliquam leo justo,
-                    auctor eget sapien.
-                  </p>
-                  <ul className="social">
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-github"></i>
-                      </a>
-                    </li>
-                  </ul>
-                  <div className="user-image">
-                    <img src="src/assets/images/photos/team/3.jpg" alt="" />
-                  </div>
-                  <div className="team-info">
-                    <h3 className="user-name">Baptista Miguel</h3>
-                    <span>Desenvolvedor Fullstack</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* ***** Team Item End ***** */}
-
-            {/* ***** Team Item Start ***** */}
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div className="team-item">
-                <div className="team-content">
-                  <p>
-                    Nunc posuere lectus ut aliquet facilisis. Nam varius id
-                    magna et convallis.
-                  </p>
-                  <ul className="social">
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-github"></i>
-                      </a>
-                    </li>
-                  </ul>
-                  <div className="user-image">
-                    <img src="src/assets/images/photos/team/4.jpg" alt="" />
-                  </div>
-                  <div className="team-info">
-                    <h3 className="user-name">Ruffino</h3>
-                    <span>Designer Gráfico</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* ***** Team Item End ***** */}
-          </div>
+          <OurTeam />
         </div>
       </section>
       {/* ***** Team End ***** */}
@@ -546,124 +288,7 @@ function Home() {
       {/* ***** Pricing Plans Start ***** */}
       <section className="section colored padding-bottom-90" id="pricing-plans">
         <div className="container">
-          {/* ***** Section Title Start ***** */}
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="center-heading">
-                <h2 className="section-title">Nossos Planos</h2>
-              </div>
-            </div>
-            <div className="offset-lg-3 col-lg-6">
-              <div className="center-text">
-                <p>
-                  Donec vulputate urna sed rutrum venenatis. Cras consequat
-                  magna quis arcu elementum, quis congue risus volutpat.
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* ***** Section Title End ***** */}
-
-          <div className="row">
-            {/* ***** Pricing Item Start ***** */}
-            <div
-              className="col-lg-4 col-md-6 col-sm-12"
-              data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s"
-            >
-              <div className="pricing-item">
-                <div className="pricing-header">
-                  <h3 className="pricing-title">BASIC PLAN</h3>
-                </div>
-                <div className="pricing-body">
-                  <div className="price-wrapper">
-                    <span className="currency">$</span>
-                    <span className="price">13.90</span>
-                    <span className="period">/Month</span>
-                  </div>
-                  <ul className="list">
-                    <li className="active">Unlimited Website</li>
-                    <li className="active">Unlimited Users</li>
-                    <li className="active">5 GB Bandwidth</li>
-                    <li className="active">Highest Speed</li>
-                    <li>Data Security and Backupss</li>
-                    <li>1 GB Storage</li>
-                    <li>24x7 Great Support</li>
-                    <li>Monthly Reports and Analytics</li>
-                  </ul>
-                </div>
-                <div className="pricing-footer">
-                  <a href="#">Select Plan</a>
-                </div>
-              </div>
-            </div>
-            {/* ***** Pricing Item End ***** */}
-
-            {/* ***** Pricing Item Start ***** */}
-            <div
-              className="col-lg-4 col-md-6 col-sm-12"
-              data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s"
-            >
-              <div className="pricing-item active">
-                <div className="pricing-header">
-                  <h3 className="pricing-title">ADVANCED PLAN</h3>
-                </div>
-                <div className="pricing-body">
-                  <div className="price-wrapper">
-                    <span className="currency">$</span>
-                    <span className="price">23.90</span>
-                    <span className="period">/Month</span>
-                  </div>
-                  <ul className="list">
-                    <li className="active">Unlimited Website</li>
-                    <li className="active">Unlimited Users</li>
-                    <li className="active">15 GB Bandwidth</li>
-                    <li className="active">Highest Speed</li>
-                    <li className="active">Data Security and Backupss</li>
-                    <li className="active">1 GB Storage</li>
-                    <li>24x7 Great Support</li>
-                    <li>Monthly Reports and Analytics</li>
-                  </ul>
-                </div>
-                <div className="pricing-footer">
-                  <a href="#">Select Plan</a>
-                </div>
-              </div>
-            </div>
-            {/* ***** Pricing Item End ***** */}
-
-            {/* ***** Pricing Item Start ***** */}
-            <div
-              className="col-lg-4 col-md-6 col-sm-12"
-              data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s"
-            >
-              <div className="pricing-item">
-                <div className="pricing-header">
-                  <h3 className="pricing-title">EXPERT PLAN</h3>
-                </div>
-                <div className="pricing-body">
-                  <div className="price-wrapper">
-                    <span className="currency">$</span>
-                    <span className="price">33.90</span>
-                    <span className="period">/Month</span>
-                  </div>
-                  <ul className="list">
-                    <li className="active">Unlimited Website</li>
-                    <li className="active">Unlimited Users</li>
-                    <li className="active">15 GB Bandwidth</li>
-                    <li className="active">Highest Speed</li>
-                    <li className="active">Data Security and Backupss</li>
-                    <li className="active">1 GB Storage</li>
-                    <li className="active">24x7 Great Support</li>
-                    <li className="active">Monthly Reports and Analytics</li>
-                  </ul>
-                </div>
-                <div className="pricing-footer">
-                  <a href="#">Select Plan</a>
-                </div>
-              </div>
-            </div>
-            {/* ***** Pricing Item End ***** */}
-          </div>
+          <PricingPlans />
         </div>
       </section>
       {/* ***** Pricing Plans End ***** */}

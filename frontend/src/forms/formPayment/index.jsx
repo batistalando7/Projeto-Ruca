@@ -40,8 +40,8 @@ function FomrPayment() {
       setPrice(station.price);
     } else {
       setSelectedStation(null);
-      setDiscount(null);
-      setPrice(null);
+      setDiscount(0);
+      setPrice("");
     }
   };
 
