@@ -25,6 +25,12 @@ Route::apiResource('/V1/invoices', 'Api\V1\InvoiceController');
 /* contact route */
 Route::apiResource('/V1/contacts', 'Api\V1\ContactController');
 
+/* Gas Station route */
+Route::apiResource('/V1/gas-stations', 'Api\V1\GasStationController');
+
+/* Payment route */
+Route::apiResource('/V1/payments', 'Api\V1\PaymentController');
+
 /* auth routes */
 
 Route::post('/V1/logout', 'Api\V1\Auth\AuthController@logout');

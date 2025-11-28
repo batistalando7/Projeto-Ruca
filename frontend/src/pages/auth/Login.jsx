@@ -1,5 +1,5 @@
 import { useState } from "react";
-import axios from "axios";
+import api from "../../services/api";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -10,8 +10,8 @@ function Login() {
     console.log("Email e senha enviados:", email, password);
 
     //Aqui ele envia oos dados para a minha api 127.0.0.1:8000/api/V1/login utilizando axios
-    axios
-      .post("http://127.0.0.1:8000/api/V1/login", { email, password })
+    api
+      .post("/login", { email, password })
       .then((response) => {
         console.log("Resposta da API:", response.data);
       })

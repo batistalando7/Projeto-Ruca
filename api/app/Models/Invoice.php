@@ -9,12 +9,6 @@ class Invoice extends Model
 {
     use SoftDeletes;
 
-    protected $fillable = [
-        'type',
-        'paid',
-        'value',
-        'service_id',
-        'user_id',
-        'payment_date',
-    ];
+    protected $table = 'invoices';
+    protected $guarded = ['id'];
 }
