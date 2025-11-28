@@ -56,7 +56,7 @@ function Header() {
                       <a href="/about">Sobre-Nós</a>
                     </li>
                     <li>
-                      <a href="green-features.html">Serviços</a>
+                      <a href="/service">Serviços</a>
                     </li>
                     <li>
                       <a href="green-faq.html">FAQ's</a>
